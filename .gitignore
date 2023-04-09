@@ -1,5 +1,4 @@
 netx-app/dist
 cache
 node_modules
-artifacts
 *.bck
