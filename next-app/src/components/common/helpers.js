@@ -14,8 +14,3 @@ export async function approve(escrowContract, signer) {
   const approveTxn = await escrowContract.connect(signer).approve()
   await approveTxn.wait()
 }
-
-provider = new ethers.providers.AlchemyProvider(
-  "goerli",
-  process.env.NEXT_PUBLIC_ALCHEMY_API_KEY
-)

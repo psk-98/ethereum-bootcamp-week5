@@ -148,8 +148,9 @@ export default function Status({ provider }) {
           </div>
         ) : !isSuccess && isError ? (
           <div className={styles.error}>
-            Whoops! Looks like something went wrong, contract probably doesn't
-            exist.
+            {
+              "Whoops! Looks like something went wrong, contract probably doesn't exist."
+            }
           </div>
         ) : (
           <></>
