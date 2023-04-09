@@ -1,5 +1,5 @@
-app/dist
-app/artifacts
+netx-app/dist
+next-app/artifacts
 cache
 node_modules
 artifacts

@@ -1,0 +1,37 @@
+html,
+body {
+  font-size: 8px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-size: 2rem;
+  color: #050505;
+}
+.container {
+  max-width: 100%;
+  min-height: 85vh;
+  margin: 4rem 4rem 0 4rem;
+}
+.error {
+  text-align: center;
+  width: 100%;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  display: none;
+}
+input[type="number"] {
+  -moz-appearance: textfield; /* Firefox */
+}
+
+@media (prefers-color-scheme: dark) {
+  html,
+  body {
+    background: #1a1a1a;
+  }
+  * {
+    color: #eee;
+  }
+}

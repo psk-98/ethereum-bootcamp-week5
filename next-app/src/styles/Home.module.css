@@ -1,0 +1,51 @@
+.contractForm {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contractForm h1 {
+  font-size: 3rem;
+  margin: 0 0 4rem 0;
+}
+.inputGroup {
+  background: #eee;
+  width: 50%;
+  margin: 0 0 3rem 0;
+  display: flex;
+}
+.inputGroup input {
+  background: none;
+  outline: none;
+  width: 100%;
+  font-size: 3rem;
+  padding: 1rem;
+  color: black;
+  border: none;
+}
+.subBtn {
+  background: #b25ff3;
+  padding: 1rem 2rem;
+  font-size: 3rem;
+}
+.header,
+.address {
+  text-align: center;
+}
+.header {
+  margin: 4rem 0 2rem 0;
+  font-size: 3rem;
+}
+.address {
+}
+.address sup {
+  font-size: 1rem;
+  color: #b25ff3;
+  margin: 0 0 0 1rem;
+}
+.error {
+  margin: 4rem 0 0 0;
+  font-size: 3rem;
+  text-align: center;
+}
