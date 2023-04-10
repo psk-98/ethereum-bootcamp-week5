@@ -93,7 +93,7 @@ export default function Home({ provider }) {
       )}
       {isError && (
         <div className={styles.error}>
-          Whoops! Looks like something went wrong
+          Whoops! Looks like something went wrong, did you connect your wallet?
         </div>
       )}
     </>
